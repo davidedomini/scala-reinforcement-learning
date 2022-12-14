@@ -4,7 +4,6 @@ object RobotWithObstacle extends App:
   import it.unibo.pervasive.rl.model.QMatrix.Action.*
   import it.unibo.pervasive.rl.model.QMatrix
   import it.unibo.pervasive.rl.model.QMatrix.*
-  import it.unibo.pervasive.rl.model.QMatrix.Action.actionToString
 
   val obstacles = Set((2,1), (3,3), (4,0), (5,1), (5,3))
 
